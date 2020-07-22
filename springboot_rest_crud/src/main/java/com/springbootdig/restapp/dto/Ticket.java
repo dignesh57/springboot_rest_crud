@@ -30,7 +30,7 @@ public class Ticket {
 	@Column(name = "dest_station")
 	private String destStation;
 	
-	@Column(name = "emial")
+	@Column(name = "email")
 	private String email;
 	
 	public Integer getTicketId() {
